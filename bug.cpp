@@ -1,0 +1,1 @@
+std::vector<bool> is specialized and may not behave as expected.  It often uses a compact bitset representation instead of storing each bool as a full byte. This can lead to unexpected performance characteristics and issues with algorithms that assume each element occupies a full byte.
