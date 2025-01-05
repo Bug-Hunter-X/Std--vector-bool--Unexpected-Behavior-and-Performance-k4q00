@@ -1,0 +1,1 @@
+Consider using `std::vector<char>` or `std::vector<bool>` with appropriate awareness of its memory characteristics and potential implications on algorithms. If memory is critical, carefully profile code to choose the best option. Using a bitset implementation manually or using a different data structure could be beneficial.
